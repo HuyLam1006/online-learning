@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.scss'
-import { HeaderPic, Logo, LogoLine } from '../../assets/images'
+import { HeaderPic, Img1, Img2, Logo } from '../../assets/images'
 import {
   Airbnb,
   Amazon,
@@ -149,6 +149,39 @@ const Home = () => {
                 Automate and track emails to individuals or groups. Skilline’s
                 built-in system helps organize your organization
               </p>
+            </div>
+          </div>
+        </section>
+        <section className="about">
+          <div className="about-header">
+            <h2 className="global-heading">
+              What is <span>Skilline?</span>
+            </h2>
+            <p className="global-text">
+              Skilline is a platform that allows educators to create online
+              classes whereby they can store the course materials online; manage
+              assignments, quizzes and exams; monitor due dates; grade results
+              and provide students with feedback all in one place.
+            </p>
+          </div>
+          <div className="about-list">
+            <div className="about-item">
+              <img src={Img1} alt="" className="about-image" />
+              <div className="about-content">
+                <h3 className="about-title">FOR INSTRUCTORS</h3>
+                <a href="#!" className="btn btn--outline">
+                  Start a class today
+                </a>
+              </div>
+            </div>
+            <div className="about-item">
+              <img src={Img2} alt="" className="about-image" />
+              <div className="about-content">
+                <h3 className="about-title">FOR STUDENTS</h3>
+                <a href="#!" className="btn about-student">
+                  Enter access code
+                </a>
+              </div>
             </div>
           </div>
         </section>
