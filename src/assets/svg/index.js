@@ -5,5 +5,19 @@ import Facebook from './facebook.svg'
 import Google from './google.svg'
 import Grab from './grab.svg'
 import Netflix from './netflix.svg'
+import IconFile from './icon-file.svg'
+import IconCalendar from './icon-calendar.svg'
+import IconUsers from './icon-users.svg'
 
-export { IconPlay, Airbnb, Amazon, Facebook, Google, Grab, Netflix }
+export {
+  IconPlay,
+  Airbnb,
+  Amazon,
+  Facebook,
+  Google,
+  Grab,
+  Netflix,
+  IconFile,
+  IconCalendar,
+  IconUsers,
+}

@@ -1,6 +1,6 @@
 .header {
   background-color: $yellow;
-  border-radius: 0 0 200px 200px;
+  clip-path: ellipse(100% 100% at top);
   margin-bottom: 100px;
   overflow: hidden;
   &-container {
@@ -58,7 +58,6 @@
   align-items: center;
   gap: 0 80px;
   &-link {
-    text-decoration: none; //!
     color: inherit;
   }
 }
@@ -69,7 +68,6 @@
   font-size: 24px;
   line-height: calc(36 / 24);
   color: inherit;
-  text-decoration: none; //!
   &-icon {
     width: 80px;
     height: 80px;
@@ -79,26 +77,5 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-}
-.btn {
-  display: inline-block;
-  font-size: 22px;
-  font-weight: 500;
-  font-family: $font-primary;
-  line-height: calc(33 / 22);
-  padding: 13px 50px;
-  border: 0;
-  outline: none;
-  border-radius: 100rem;
-  cursor: pointer;
-  text-decoration: none; //!
-  &--white {
-    background-color: #fff;
-    color: $gray-light;
-  }
-  &--primary {
-    color: #fff;
-    background-color: $secondary-color;
   }
 }

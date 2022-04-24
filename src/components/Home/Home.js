@@ -7,7 +7,10 @@ import {
   Facebook,
   Google,
   Grab,
+  IconCalendar,
+  IconFile,
   IconPlay,
+  IconUsers,
   Netflix,
 } from '../../assets/svg'
 
@@ -99,6 +102,53 @@ const Home = () => {
             </div>
             <div className="company-logo">
               <img src={Grab} alt="" />
+            </div>
+          </div>
+        </section>
+        <section className="introduce">
+          <div className="introduce-header">
+            <h2 className="global-heading">
+              All-In-One <span>Cloud Software.</span>
+            </h2>
+            <p className="introduce-desc global-text">
+              Skilline is one powerful online software suite that combines all
+              the tools needed to run a successful school or office.
+            </p>
+          </div>
+          <div className="introduce-list">
+            <div className="introduce-item">
+              <div className="introduce-icon bg-purple">
+                <img src={IconFile} alt="" />
+              </div>
+              <h3 className="introduce-title">
+                Online Billing, Invoicing, & Contracts
+              </h3>
+              <p className="introduce-desc">
+                Simple and secure control of your organization’s financial and
+                legal transactions. Send customized invoices and contracts
+              </p>
+            </div>
+            <div className="introduce-item">
+              <div className="introduce-icon bg-yellow">
+                <img src={IconCalendar} alt="" />
+              </div>
+              <h3 className="introduce-title">
+                Easy Scheduling & Attendance Tracking
+              </h3>
+              <p className="introduce-desc">
+                Schedule and reserve classrooms at one campus or multiple
+                campuses. Keep detailed records of student attendance
+              </p>
+            </div>
+            <div className="introduce-item">
+              <div className="introduce-icon bg-blue">
+                <img src={IconUsers} alt="" />
+              </div>
+              <h3 className="introduce-title">Customer Tracking</h3>
+              <p className="introduce-desc">
+                Automate and track emails to individuals or groups. Skilline’s
+                built-in system helps organize your organization
+              </p>
             </div>
           </div>
         </section>
