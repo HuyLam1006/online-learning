@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.scss'
-import { HeaderPic, Img1, Img2, Logo } from '../../assets/images'
+import { HeaderPic, Img1, Img2, Img3, Logo } from '../../assets/images'
 import {
   Airbnb,
   Amazon,
@@ -182,6 +182,28 @@ const Home = () => {
                   Enter access code
                 </a>
               </div>
+            </div>
+          </div>
+        </section>
+        <section className="skilline">
+          <div className="skilline-content">
+            <h2 className="skilline-heading">
+              Everything you can do in a physical classroom,
+              <span>you can do with Skilline</span>
+            </h2>
+            <p className="skilline-desc">
+              Skilline’s school management software helps traditional and online
+              schools manage scheduling, attendance, payments and virtual
+              classrooms all in one secure cloud-based system.
+            </p>
+            <a href="#!" className="skilline-more">
+              Learn more
+            </a>
+          </div>
+          <div className="skilline-image">
+            <img src={Img3} alt="" />
+            <div className="skilline-play">
+              <img src={IconPlay} alt="" />
             </div>
           </div>
         </section>
