@@ -8,6 +8,9 @@ import Netflix from './netflix.svg'
 import IconFile from './icon-file.svg'
 import IconCalendar from './icon-calendar.svg'
 import IconUsers from './icon-users.svg'
+import IconUser2 from './icon-user2.svg'
+import IconSquares from './icon-squares.svg'
+import IconCopy from './icon-copy.svg'
 
 export {
   IconPlay,
@@ -20,4 +23,7 @@ export {
   IconFile,
   IconCalendar,
   IconUsers,
+  IconUser2,
+  IconSquares,
+  IconCopy,
 }
