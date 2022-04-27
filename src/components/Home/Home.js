@@ -1,6 +1,8 @@
 import React from 'react'
 import './Home.scss'
 import {
+  DropBox,
+  GoogleDrive,
   HeaderPic,
   Img1,
   Img2,
@@ -11,6 +13,8 @@ import {
   Img7,
   Img8,
   Logo,
+  MicrosoftTeams,
+  OneDrive,
 } from '../../assets/images'
 import {
   Airbnb,
@@ -333,6 +337,28 @@ const Home = () => {
           <a href="#!" className="btn feature-more">
             See more features
           </a>
+        </section>
+        <section className="integration">
+          <div className="integration-brand">
+            <img src={OneDrive} alt="" />
+            <img src={DropBox} alt="" />
+            <img src={GoogleDrive} alt="" />
+            <img src={MicrosoftTeams} alt="" />
+          </div>
+          <div className="integration-content">
+            <div className="global-caption">INTEGRATIONS</div>
+            <h2 className="global-heading integration-heading">
+              200+ educational tools and platform <span>integrations</span>
+            </h2>
+            <p className="global-text integration-text">
+              Schoology has every tool your classroom needs and comes
+              pre-integrated with more than 200+ tools, student information
+              systems (SIS), and education platforms.
+            </p>
+            <a href="#!" className="btn btn--secondary integration-button">
+              See All Integrations
+            </a>
+          </div>
         </section>
       </main>
     </div>
