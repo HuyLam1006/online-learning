@@ -1,5 +1,5 @@
-import React from 'react'
-import './Home.scss'
+import React from 'react';
+import './Home.scss';
 import {
   DropBox,
   GoogleDrive,
@@ -15,13 +15,14 @@ import {
   Logo,
   MicrosoftTeams,
   OneDrive,
-} from '../../assets/images'
+} from '../../assets/images';
 import {
   Airbnb,
   Amazon,
   Facebook,
   Google,
   Grab,
+  IconArrow,
   IconCalendar,
   IconCopy,
   IconFile,
@@ -30,7 +31,7 @@ import {
   IconUser2,
   IconUsers,
   Netflix,
-} from '../../assets/svg'
+} from '../../assets/svg';
 
 const Home = () => {
   return (
@@ -360,9 +361,37 @@ const Home = () => {
             </a>
           </div>
         </section>
+        <section className="testimonial">
+          <div className="testimonial-content">
+            <div className="global-caption">TESTIMONIAL</div>
+            <h2 className="global-heading testimonial-heading">
+              What They Say?
+            </h2>
+            <p className="global-text testimonial-desc">
+              Skilline has got more than 100k positive ratings from our users
+              around the world.
+            </p>
+            <p className="global-text testimonial-desc">
+              Some of the students and teachers were greatly helped by the
+              Skilline.
+            </p>
+            <p className="global-text testimonial-desc">
+              Are you too? Please give your assessment
+            </p>
+            <a href="#!" className="testimonial-button">
+              <span>Write your assessment</span>
+              <div className="testimonial-arrow">
+                <img src={IconArrow} alt="" />
+              </div>
+            </a>
+          </div>
+          <div className="testimonial-slider">
+            <div className="testimonial-item"></div>
+          </div>
+        </section>
       </main>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
